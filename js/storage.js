@@ -10,9 +10,26 @@ const STORAGE_KEYS = {
  * 初回起動時などにLocalStorageを初期化する
  */
 export function initializeStorage() {
-  if (!localStorage.getItem(STORAGE_KEYS.POKEMON_DB)) {
-    localStorage.setItem(STORAGE_KEYS.POKEMON_DB, JSON.stringify(INITIAL_POKEMON_DATABASE));
+  const storedDb = localStorage.getItem(STORAGE_KEYS.POKEMON_DB);
+  let dbNeedsReset = false;
+  if (storedDb) {
+    try {
+      const parsed = JSON.parse(storedDb);
+      // 古いデータベース（登録数が少ない、または仕様変更）を検知して自動で最新化する
+      if (parsed.length < 100) {
+        dbNeedsReset = true;
+      }
+    } catch (e) {
+      dbNeedsReset = true;
+    }
   }
+
+  if (!storedDb || dbNeedsReset) {
+    localStorage.setItem(STORAGE_KEYS.POKEMON_DB, JSON.stringify(INITIAL_POKEMON_DATABASE));
+    // DBを最新化した場合は仮想敵リストも最新のものに同期する
+    localStorage.setItem(STORAGE_KEYS.VIRTUAL_ENEMIES, JSON.stringify(INITIAL_VIRTUAL_ENEMIES));
+  }
+
   if (!localStorage.getItem(STORAGE_KEYS.VIRTUAL_ENEMIES)) {
     localStorage.setItem(STORAGE_KEYS.VIRTUAL_ENEMIES, JSON.stringify(INITIAL_VIRTUAL_ENEMIES));
   }

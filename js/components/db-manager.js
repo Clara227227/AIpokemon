@@ -354,7 +354,7 @@ export class DbManager {
     // データベース初期化
     const btnReset = document.getElementById('db-btn-reset');
     btnReset.addEventListener('click', () => {
-      if (confirm('データベースを初期状態（主要ポケモン25匹）にリセットしますか？手動で行った修正は消去されます。')) {
+      if (confirm('データベースを初期状態（Pokémon Champions 311匹）にリセットしますか？手動で行った修正は消去されます。')) {
         this.pokemonList = resetPokemonDatabase();
         document.getElementById('db-table-body').innerHTML = this.renderTableRows();
         this.bindRowEvents();
