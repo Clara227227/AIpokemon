@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Champions - チームチェッカー &amp; シミュレータ</title>
+  <!-- Google Fonts: Outfit, Noto Sans JP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&amp;family=Outfit:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 背景のネオンブラー（ポケモンらしいエフェクト） -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <div id="app" class="app-container">
+    <!-- ヘッダー -->
+    <header class="app-header">
+      <div class="logo">
+        <span class="logo-pok">Poké</span><span class="logo-mon">mon</span>
+        <span class="logo-sub">Champions Checker</span>
+      </div>
+      <div class="api-status" id="api-status-badge">
+        <i class="fa-solid fa-circle-notch fa-spin"></i> データ読み込み中...
+      </div>
+    </header>
+
+    <!-- ナビゲーションバー -->
+    <nav class="app-nav">
+      <button class="nav-tab active" data-tab="checker">
+        <i class="fa-solid fa-users"></i> チーム診断
+      </button>
+      <button class="nav-tab" data-tab="simulator">
+        <i class="fa-solid fa-gamepad"></i> 仮想敵シミュレータ
+      </button>
+      <button class="nav-tab" data-tab="database">
+        <i class="fa-solid fa-database"></i> ポケモンDB管理
+      </button>
+    </nav>
+
+    <!-- メインコンテンツ -->
+    <main class="app-content">
+      <!-- 1. チーム診断タブ -->
+      <section id="tab-checker" class="tab-content active">
+        <!-- JSで動的にレンダリングされます -->
+        <div class="loading-placeholder">
+          <i class="fa-solid fa-circle-notch fa-spin fa-2x"></i>
+          <p>データを読み込んでいます。初回起動時は数秒かかる場合があります...</p>
+        </div>
+      </section>
+
+      <!-- 2. 仮想敵シミュレータタブ -->
+      <section id="tab-simulator" class="tab-content">
+        <div class="loading-placeholder">
+          <i class="fa-solid fa-circle-notch fa-spin fa-2x"></i>
+        </div>
+      </section>
+
+      <!-- 3. ポケモンDB管理タブ -->
+      <section id="tab-database" class="tab-content">
+        <div class="loading-placeholder">
+          <i class="fa-solid fa-circle-notch fa-spin fa-2x"></i>
+        </div>
+      </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="app-footer">
+      <p>&copy; 2026 Pokémon Champions Checker. All rights reserved. (Regulation M-B Active)</p>
+    </footer>
+  </div>
+
+  <!-- JavaScript Entry Point -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
