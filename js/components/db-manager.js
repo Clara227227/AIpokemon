@@ -199,7 +199,8 @@ export class DbManager {
     // 検索・フィルタリングの適用
     const filtered = this.pokemonList.filter(p => {
       const matchName = p.name.includes(this.searchQuery);
-      const matchType = !this.typeFilter || p.types.includes(this.typeFilter);
+      const types = Array.isArray(p.types) ? p.types : [p.types];
+      const matchType = !this.typeFilter || types.includes(this.typeFilter);
       return matchName && matchType;
     });
 
@@ -208,7 +209,8 @@ export class DbManager {
     }
 
     return filtered.map(p => {
-      const typeBadges = p.types.map(t => `<span class="badge-type ${t}">${TYPE_NAMES_JA[t] || t}</span>`).join(' ');
+      const types = Array.isArray(p.types) ? p.types : [p.types];
+      const typeBadges = types.map(t => `<span class="badge-type ${t}">${TYPE_NAMES_JA[t] || t}</span>`).join(' ');
       const statsStr = p.stats.join('-');
       const isMegaBadge = p.isMega ? ' <span style="font-size: 10px; padding: 2px 4px; border-radius: 3px; background: #8b5cf6; color: white;">MEGA</span>' : '';
       

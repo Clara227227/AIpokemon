@@ -181,7 +181,7 @@ foreach ($item in $pokemonList) {
     $results += [PSCustomObject]@{
         id = $data.id
         name = $jaName
-        types = $data.types.type.name
+        types = @($data.types.type.name)
         stats = $stats
         moves = $moves
         role = $role

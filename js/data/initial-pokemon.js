@@ -79,7 +79,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  9,
         "name":  "カメックス",
-        "types":  "water",
+        "types":  [
+                      "water"
+                  ],
         "stats":  [
                       79,
                       83,
@@ -148,7 +150,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  24,
         "name":  "アーボック",
-        "types":  "poison",
+        "types":  [
+                      "poison"
+                  ],
         "stats":  [
                       60,
                       95,
@@ -169,7 +173,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  25,
         "name":  "ピカチュウ",
-        "types":  "electric",
+        "types":  [
+                      "electric"
+                  ],
         "stats":  [
                       35,
                       55,
@@ -190,7 +196,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  26,
         "name":  "ライチュウ",
-        "types":  "electric",
+        "types":  [
+                      "electric"
+                  ],
         "stats":  [
                       60,
                       90,
@@ -235,7 +243,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  36,
         "name":  "ピクシー",
-        "types":  "fairy",
+        "types":  [
+                      "fairy"
+                  ],
         "stats":  [
                       95,
                       70,
@@ -256,7 +266,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  38,
         "name":  "キュウコン",
-        "types":  "fire",
+        "types":  [
+                      "fire"
+                  ],
         "stats":  [
                       73,
                       76,
@@ -325,7 +337,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  59,
         "name":  "ウインディ",
-        "types":  "fire",
+        "types":  [
+                      "fire"
+                  ],
         "stats":  [
                       90,
                       110,
@@ -370,7 +384,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  65,
         "name":  "フーディン",
-        "types":  "psychic",
+        "types":  [
+                      "psychic"
+                  ],
         "stats":  [
                       55,
                       50,
@@ -391,7 +407,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  68,
         "name":  "カイリキー",
-        "types":  "fighting",
+        "types":  [
+                      "fighting"
+                  ],
         "stats":  [
                       90,
                       130,
@@ -508,7 +526,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  115,
         "name":  "ガルーラ",
-        "types":  "normal",
+        "types":  [
+                      "normal"
+                  ],
         "stats":  [
                       105,
                       95,
@@ -553,7 +573,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  127,
         "name":  "カイロス",
-        "types":  "bug",
+        "types":  [
+                      "bug"
+                  ],
         "stats":  [
                       65,
                       125,
@@ -574,7 +596,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  128,
         "name":  "ケンタロス",
-        "types":  "normal",
+        "types":  [
+                      "normal"
+                  ],
         "stats":  [
                       75,
                       100,
@@ -595,7 +619,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10250,
         "name":  "ケンタロス(パルデア)",
-        "types":  "fighting",
+        "types":  [
+                      "fighting"
+                  ],
         "stats":  [
                       75,
                       110,
@@ -688,7 +714,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  132,
         "name":  "メタモン",
-        "types":  "normal",
+        "types":  [
+                      "normal"
+                  ],
         "stats":  [
                       48,
                       48,
@@ -706,7 +734,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  134,
         "name":  "シャワーズ",
-        "types":  "water",
+        "types":  [
+                      "water"
+                  ],
         "stats":  [
                       130,
                       65,
@@ -727,7 +757,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  135,
         "name":  "サンダース",
-        "types":  "electric",
+        "types":  [
+                      "electric"
+                  ],
         "stats":  [
                       65,
                       65,
@@ -748,7 +780,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  136,
         "name":  "ブースター",
-        "types":  "fire",
+        "types":  [
+                      "fire"
+                  ],
         "stats":  [
                       65,
                       130,
@@ -793,7 +827,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  143,
         "name":  "カビゴン",
-        "types":  "normal",
+        "types":  [
+                      "normal"
+                  ],
         "stats":  [
                       160,
                       110,
@@ -838,7 +874,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  154,
         "name":  "メガニウム",
-        "types":  "grass",
+        "types":  [
+                      "grass"
+                  ],
         "stats":  [
                       80,
                       82,
@@ -859,7 +897,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  157,
         "name":  "バクフーン",
-        "types":  "fire",
+        "types":  [
+                      "fire"
+                  ],
         "stats":  [
                       78,
                       84,
@@ -880,7 +920,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  157,
         "name":  "バクフーン",
-        "types":  "fire",
+        "types":  [
+                      "fire"
+                  ],
         "stats":  [
                       78,
                       84,
@@ -901,7 +943,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  160,
         "name":  "オーダイル",
-        "types":  "water",
+        "types":  [
+                      "water"
+                  ],
         "stats":  [
                       85,
                       105,
@@ -946,7 +990,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  181,
         "name":  "デンリュウ",
-        "types":  "electric",
+        "types":  [
+                      "electric"
+                  ],
         "stats":  [
                       90,
                       75,
@@ -991,7 +1037,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  186,
         "name":  "ニョロトノ",
-        "types":  "water",
+        "types":  [
+                      "water"
+                  ],
         "stats":  [
                       90,
                       75,
@@ -1012,7 +1060,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  196,
         "name":  "エーフィ",
-        "types":  "psychic",
+        "types":  [
+                      "psychic"
+                  ],
         "stats":  [
                       65,
                       65,
@@ -1033,7 +1083,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  197,
         "name":  "ブラッキー",
-        "types":  "dark",
+        "types":  [
+                      "dark"
+                  ],
         "stats":  [
                       95,
                       65,
@@ -1294,7 +1346,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  254,
         "name":  "ジュカイン",
-        "types":  "grass",
+        "types":  [
+                      "grass"
+                  ],
         "stats":  [
                       70,
                       85,
@@ -1507,7 +1561,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  310,
         "name":  "ライボルト",
-        "types":  "electric",
+        "types":  [
+                      "electric"
+                  ],
         "stats":  [
                       70,
                       75,
@@ -1576,7 +1632,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  324,
         "name":  "コータス",
-        "types":  "fire",
+        "types":  [
+                      "fire"
+                  ],
         "stats":  [
                       70,
                       85,
@@ -1621,7 +1679,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  350,
         "name":  "ミロカロス",
-        "types":  "water",
+        "types":  [
+                      "water"
+                  ],
         "stats":  [
                       95,
                       60,
@@ -1642,7 +1702,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  351,
         "name":  "ポワルン",
-        "types":  "normal",
+        "types":  [
+                      "normal"
+                  ],
         "stats":  [
                       70,
                       70,
@@ -1663,7 +1725,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  354,
         "name":  "ジュペッタ",
-        "types":  "ghost",
+        "types":  [
+                      "ghost"
+                  ],
         "stats":  [
                       64,
                       115,
@@ -1684,7 +1748,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  358,
         "name":  "チリーン",
-        "types":  "psychic",
+        "types":  [
+                      "psychic"
+                  ],
         "stats":  [
                       75,
                       50,
@@ -1705,7 +1771,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  359,
         "name":  "アブソル",
-        "types":  "dark",
+        "types":  [
+                      "dark"
+                  ],
         "stats":  [
                       65,
                       130,
@@ -1726,7 +1794,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  362,
         "name":  "オニゴーリ",
-        "types":  "ice",
+        "types":  [
+                      "ice"
+                  ],
         "stats":  [
                       80,
                       80,
@@ -1867,7 +1937,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  405,
         "name":  "レントラー",
-        "types":  "electric",
+        "types":  [
+                      "electric"
+                  ],
         "stats":  [
                       80,
                       120,
@@ -1912,7 +1984,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  409,
         "name":  "ラムパルド",
-        "types":  "rock",
+        "types":  [
+                      "rock"
+                  ],
         "stats":  [
                       97,
                       165,
@@ -1957,7 +2031,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  428,
         "name":  "ミミロップ",
-        "types":  "normal",
+        "types":  [
+                      "normal"
+                  ],
         "stats":  [
                       65,
                       76,
@@ -2050,7 +2126,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  450,
         "name":  "カバルドン",
-        "types":  "ground",
+        "types":  [
+                      "ground"
+                  ],
         "stats":  [
                       108,
                       112,
@@ -2167,7 +2245,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  470,
         "name":  "リーフィア",
-        "types":  "grass",
+        "types":  [
+                      "grass"
+                  ],
         "stats":  [
                       65,
                       110,
@@ -2188,7 +2268,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  471,
         "name":  "グレイシア",
-        "types":  "ice",
+        "types":  [
+                      "ice"
+                  ],
         "stats":  [
                       65,
                       60,
@@ -2449,7 +2531,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  497,
         "name":  "ジャローダ",
-        "types":  "grass",
+        "types":  [
+                      "grass"
+                  ],
         "stats":  [
                       75,
                       75,
@@ -2494,7 +2578,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  503,
         "name":  "ダイケンキ",
-        "types":  "water",
+        "types":  [
+                      "water"
+                  ],
         "stats":  [
                       95,
                       100,
@@ -2539,7 +2625,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  505,
         "name":  "ミルホッグ",
-        "types":  "normal",
+        "types":  [
+                      "normal"
+                  ],
         "stats":  [
                       60,
                       85,
@@ -2560,7 +2648,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  510,
         "name":  "レパルダス",
-        "types":  "dark",
+        "types":  [
+                      "dark"
+                  ],
         "stats":  [
                       64,
                       88,
@@ -2581,7 +2671,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  512,
         "name":  "ヤナッキー",
-        "types":  "grass",
+        "types":  [
+                      "grass"
+                  ],
         "stats":  [
                       75,
                       98,
@@ -2602,7 +2694,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  514,
         "name":  "バオッキー",
-        "types":  "fire",
+        "types":  [
+                      "fire"
+                  ],
         "stats":  [
                       75,
                       98,
@@ -2623,7 +2717,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  516,
         "name":  "ヒヤッキー",
-        "types":  "water",
+        "types":  [
+                      "water"
+                  ],
         "stats":  [
                       75,
                       98,
@@ -2644,7 +2740,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  518,
         "name":  "ムシャーナ",
-        "types":  "psychic",
+        "types":  [
+                      "psychic"
+                  ],
         "stats":  [
                       116,
                       55,
@@ -2689,7 +2787,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  531,
         "name":  "タブンネ",
-        "types":  "normal",
+        "types":  [
+                      "normal"
+                  ],
         "stats":  [
                       103,
                       60,
@@ -2710,7 +2810,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  534,
         "name":  "ローブシン",
-        "types":  "fighting",
+        "types":  [
+                      "fighting"
+                  ],
         "stats":  [
                       105,
                       140,
@@ -2827,7 +2929,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  563,
         "name":  "デスカーン",
-        "types":  "ghost",
+        "types":  [
+                      "ghost"
+                  ],
         "stats":  [
                       58,
                       50,
@@ -2848,7 +2952,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  569,
         "name":  "ダストダス",
-        "types":  "poison",
+        "types":  [
+                      "poison"
+                  ],
         "stats":  [
                       80,
                       95,
@@ -2869,7 +2975,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  571,
         "name":  "ゾロアーク",
-        "types":  "dark",
+        "types":  [
+                      "dark"
+                  ],
         "stats":  [
                       60,
                       105,
@@ -2914,7 +3022,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  579,
         "name":  "ランクルス",
-        "types":  "psychic",
+        "types":  [
+                      "psychic"
+                  ],
         "stats":  [
                       110,
                       65,
@@ -2935,7 +3045,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  584,
         "name":  "バイバニラ",
-        "types":  "ice",
+        "types":  [
+                      "ice"
+                  ],
         "stats":  [
                       71,
                       95,
@@ -2980,7 +3092,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  604,
         "name":  "シビルドン",
-        "types":  "electric",
+        "types":  [
+                      "electric"
+                  ],
         "stats":  [
                       85,
                       115,
@@ -3025,7 +3139,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  614,
         "name":  "ツンベアー",
-        "types":  "ice",
+        "types":  [
+                      "ice"
+                  ],
         "stats":  [
                       95,
                       130,
@@ -3310,7 +3426,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  670,
         "name":  "フラエッテ",
-        "types":  "fairy",
+        "types":  [
+                      "fairy"
+                  ],
         "stats":  [
                       54,
                       45,
@@ -3331,7 +3449,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  671,
         "name":  "フラージェス",
-        "types":  "fairy",
+        "types":  [
+                      "fairy"
+                  ],
         "stats":  [
                       78,
                       65,
@@ -3376,7 +3496,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  676,
         "name":  "トリミアン",
-        "types":  "normal",
+        "types":  [
+                      "normal"
+                  ],
         "stats":  [
                       75,
                       80,
@@ -3397,7 +3519,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  683,
         "name":  "フレフワン",
-        "types":  "fairy",
+        "types":  [
+                      "fairy"
+                  ],
         "stats":  [
                       101,
                       72,
@@ -3418,7 +3542,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  685,
         "name":  "ペロリーム",
-        "types":  "fairy",
+        "types":  [
+                      "fairy"
+                  ],
         "stats":  [
                       82,
                       80,
@@ -3511,7 +3637,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  693,
         "name":  "ブロスター",
-        "types":  "water",
+        "types":  [
+                      "water"
+                  ],
         "stats":  [
                       71,
                       73,
@@ -3604,7 +3732,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  700,
         "name":  "ニンフィア",
-        "types":  "fairy",
+        "types":  [
+                      "fairy"
+                  ],
         "stats":  [
                       95,
                       65,
@@ -3673,7 +3803,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  706,
         "name":  "ヌメルゴン",
-        "types":  "dragon",
+        "types":  [
+                      "dragon"
+                  ],
         "stats":  [
                       90,
                       100,
@@ -3766,7 +3898,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  713,
         "name":  "クレベース",
-        "types":  "ice",
+        "types":  [
+                      "ice"
+                  ],
         "stats":  [
                       95,
                       117,
@@ -4003,7 +4137,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  750,
         "name":  "バンバドロ",
-        "types":  "ground",
+        "types":  [
+                      "ground"
+                  ],
         "stats":  [
                       100,
                       125,
@@ -4072,7 +4208,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  763,
         "name":  "アマージョ",
-        "types":  "grass",
+        "types":  [
+                      "grass"
+                  ],
         "stats":  [
                       72,
                       120,
@@ -4117,7 +4255,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  766,
         "name":  "ナゲツケサル",
-        "types":  "fighting",
+        "types":  [
+                      "fighting"
+                  ],
         "stats":  [
                       100,
                       120,
@@ -4258,7 +4398,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  844,
         "name":  "サダイジャ",
-        "types":  "ground",
+        "types":  [
+                      "ground"
+                  ],
         "stats":  [
                       72,
                       107,
@@ -4279,7 +4421,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  855,
         "name":  "ポットデス",
-        "types":  "ghost",
+        "types":  [
+                      "ghost"
+                  ],
         "stats":  [
                       60,
                       65,
@@ -4396,7 +4540,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  869,
         "name":  "マホイップ",
-        "types":  "fairy",
+        "types":  [
+                      "fairy"
+                  ],
         "stats":  [
                       65,
                       60,
@@ -4417,7 +4563,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  870,
         "name":  "タイレーツ",
-        "types":  "fighting",
+        "types":  [
+                      "fighting"
+                  ],
         "stats":  [
                       65,
                       100,
@@ -4678,7 +4826,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  934,
         "name":  "キョジオーン",
-        "types":  "rock",
+        "types":  [
+                      "rock"
+                  ],
         "stats":  [
                       100,
                       100,
@@ -4747,7 +4897,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  939,
         "name":  "ハラバリー",
-        "types":  "electric",
+        "types":  [
+                      "electric"
+                  ],
         "stats":  [
                       109,
                       64,
@@ -4792,7 +4944,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  956,
         "name":  "クエスパトラ",
-        "types":  "psychic",
+        "types":  [
+                      "psychic"
+                  ],
         "stats":  [
                       95,
                       60,
@@ -4837,7 +4991,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  968,
         "name":  "ミミズズ",
-        "types":  "steel",
+        "types":  [
+                      "steel"
+                  ],
         "stats":  [
                       70,
                       85,
@@ -4882,7 +5038,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  972,
         "name":  "ハカドッグ",
-        "types":  "ghost",
+        "types":  [
+                      "ghost"
+                  ],
         "stats":  [
                       72,
                       101,
@@ -5167,7 +5325,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10036,
         "name":  "メガカメックス",
-        "types":  "water",
+        "types":  [
+                      "water"
+                  ],
         "stats":  [
                       79,
                       103,
@@ -5236,7 +5396,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  26,
         "name":  "メガライチュウ",
-        "types":  "electric",
+        "types":  [
+                      "electric"
+                  ],
         "stats":  [
                       60,
                       90,
@@ -5257,7 +5419,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  26,
         "name":  "メガライチュウ",
-        "types":  "electric",
+        "types":  [
+                      "electric"
+                  ],
         "stats":  [
                       60,
                       90,
@@ -5299,7 +5463,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10037,
         "name":  "メガフーディン",
-        "types":  "psychic",
+        "types":  [
+                      "psychic"
+                  ],
         "stats":  [
                       55,
                       50,
@@ -5389,7 +5555,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10039,
         "name":  "メガガルーラ",
-        "types":  "normal",
+        "types":  [
+                      "normal"
+                  ],
         "stats":  [
                       105,
                       125,
@@ -5875,7 +6043,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10053,
         "name":  "メガボスゴドラ",
-        "types":  "steel",
+        "types":  [
+                      "steel"
+                  ],
         "stats":  [
                       70,
                       140,
@@ -5920,7 +6090,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10055,
         "name":  "メガライボルト",
-        "types":  "electric",
+        "types":  [
+                      "electric"
+                  ],
         "stats":  [
                       70,
                       75,
@@ -6013,7 +6185,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10056,
         "name":  "メガジュペッタ",
-        "types":  "ghost",
+        "types":  [
+                      "ghost"
+                  ],
         "stats":  [
                       64,
                       165,
@@ -6055,7 +6229,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10057,
         "name":  "メガアブソル",
-        "types":  "dark",
+        "types":  [
+                      "dark"
+                  ],
         "stats":  [
                       65,
                       150,
@@ -6076,7 +6252,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10074,
         "name":  "メガオニゴーリ",
-        "types":  "ice",
+        "types":  [
+                      "ice"
+                  ],
         "stats":  [
                       80,
                       120,
@@ -6391,7 +6569,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10290,
         "name":  "メガシビルドン",
-        "types":  "electric",
+        "types":  [
+                      "electric"
+                  ],
         "stats":  [
                       85,
                       145,
@@ -6535,7 +6715,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10296,
         "name":  "メガフラエッテ",
-        "types":  "fairy",
+        "types":  [
+                      "fairy"
+                  ],
         "stats":  [
                       74,
                       85,
@@ -6553,7 +6735,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10314,
         "name":  "メガニャオニクス",
-        "types":  "psychic",
+        "types":  [
+                      "psychic"
+                  ],
         "stats":  [
                       74,
                       48,
@@ -6697,7 +6881,9 @@ export const INITIAL_POKEMON_DATABASE = [
     {
         "id":  10303,
         "name":  "メガタイレーツ",
-        "types":  "fighting",
+        "types":  [
+                      "fighting"
+                  ],
         "stats":  [
                       65,
                       135,

@@ -331,7 +331,8 @@ export class Simulator {
       // 1. タイプ相性を算出
       // 攻撃側（手持ち） -> 防御側（仮想敵）
       let memberAtkFactor = 1.0;
-      dbPoke.types.forEach(atkType => {
+      const dbPokeTypes = Array.isArray(dbPoke.types) ? dbPoke.types : [dbPoke.types];
+      dbPokeTypes.forEach(atkType => {
         enemy.types.forEach(defType => {
           const mult = TYPE_CHART[atkType] && TYPE_CHART[atkType][defType];
           if (mult !== undefined && mult > memberAtkFactor) {
@@ -343,7 +344,8 @@ export class Simulator {
       // 攻撃側（仮想敵） -> 防御側（手持ち）
       let enemyAtkFactor = 1.0;
       enemy.types.forEach(atkType => {
-        dbPoke.types.forEach(defType => {
+        const dbPokeTypes = Array.isArray(dbPoke.types) ? dbPoke.types : [dbPoke.types];
+        dbPokeTypes.forEach(defType => {
           const mult = TYPE_CHART[atkType] && TYPE_CHART[atkType][defType];
           if (mult !== undefined) {
             // 防御側が複合タイプなら掛け算
@@ -525,7 +527,8 @@ export class Simulator {
 
     if (candidates.length > 0) {
       const bestCandidate = candidates[0].pokemon;
-      const typeStr = bestCandidate.types.map(t => TYPE_NAMES_JA[t]).join('・');
+      const bestCandidateTypes = Array.isArray(bestCandidate.types) ? bestCandidate.types : [bestCandidate.types];
+      const typeStr = bestCandidateTypes.map(t => TYPE_NAMES_JA[t] || t).join('・');
       
       recommendations.push({
         currentPoke: weakestMember.name,

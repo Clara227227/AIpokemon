@@ -280,9 +280,11 @@ export class TeamChecker {
       `;
     }
 
-    const typeBadges = dbPokemon 
-      ? dbPokemon.types.map(t => `<span class="badge-type ${t}" style="font-size:9px; padding:2px 6px;">${TYPE_NAMES_JA[t] || t}</span>`).join(' ') 
-      : '';
+    let typeBadges = '';
+    if (dbPokemon) {
+      const types = Array.isArray(dbPokemon.types) ? dbPokemon.types : [dbPokemon.types];
+      typeBadges = types.map(t => `<span class="badge-type ${t}" style="font-size:9px; padding:2px 6px;">${TYPE_NAMES_JA[t] || t}</span>`).join(' ');
+    }
     
     // 画像URLの生成（PokeAPIのIDに基づく）。もしIDがなければモンスタボール画像やフォールバック
     const spriteUrl = dbPokemon && dbPokemon.id
@@ -476,7 +478,8 @@ export class TeamChecker {
         if (!dbPoke) return;
 
         let multiplier = 1.0;
-        dbPoke.types.forEach(defType => {
+        const dbPokeTypes = Array.isArray(dbPoke.types) ? dbPoke.types : [dbPoke.types];
+        dbPokeTypes.forEach(defType => {
           const chartVal = TYPE_CHART[atkType] && TYPE_CHART[atkType][defType];
           if (chartVal !== undefined) {
             multiplier *= chartVal;
@@ -514,7 +517,8 @@ export class TeamChecker {
         // 技名が日本語のため、技名からタイプを推測するか、DB内の技名リストからタイプを取る
         // 技のタイプ判定は、今回は簡単にするため、ポケモンの「タイプ一致技」＋「設定された技」のタイプをDBから引っ張るか、あるいは簡易マッチング
         // ポケモンが設定されている＝一致技は常時出せると想定
-        dbPoke.types.forEach(pokeType => {
+        const dbPokeTypes = Array.isArray(dbPoke.types) ? dbPoke.types : [dbPoke.types];
+        dbPokeTypes.forEach(pokeType => {
           const chartVal = TYPE_CHART[pokeType] && TYPE_CHART[pokeType][defType];
           if (chartVal >= 2.0) {
             attackResults[defType].canHitWeak = true;
